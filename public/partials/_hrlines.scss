@@ -1,0 +1,25 @@
+/* Horizontal Dotted-Lines */
+.hr-right, .hr-left{
+    border:none;
+    border-top:7px dotted #fff;
+    color:#fff;
+ //    height:1px;
+    width:50%;
+     margin-bottom:10px;
+     display:flex;
+  }
+  .hr-right{
+    float:right;
+  }
+  .hr-left{
+      float:left;
+    
+  }
+  .hr-center{
+    width:90%;
+    border:none;
+    border-top:7px dotted #fff;
+    color:#fff;
+     margin-bottom:10px;
+  }
+  

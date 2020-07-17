@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Righteous&display=swap" rel="stylesheet">
+    <title>BreakTheCycle - Hackathon Group 7</title>
+</head>
+
+<body>
+
+    <!--Thinking of adding anchors to the page later-->
+    <!--Logo Area-->
+    <div id="main-container">
+        <!--Welcome Message-->
+        <div id="logo_wrapper">
+            <a href="index.html"><img class="logo" src="images/logoBTC.png" alt="Website Logo" /></a>
+        </div>
+
+        <!--Top Anchor-->
+        <div id="top">
+          <!--Top Description-->
+          <hr class="hr-right">
+          <div class="top-wrapper">
+              <div class="desc">Hello Welcome To <span class="desc-colors">BreakTheCycle</span></div>
+          </div>
+          <hr class="hr-left">
+          <br>
+          <div class="about">
+            <p>We have all had that moment where we throw something away and think, "I probably should have recycled that." Welcome to BreakTheCycle, an app designed to help you know when and how to recycle everyday items! Have a question about a specific item you want to recycle? Enter it into the search bar to access our recyclable item database, packed with up-to-date information on recycling best practice!</p>
+          </div>
+        </div>
+        <hr class="hr-center">
+        <br>
+        <!-- Item search and results box -->
+        <div class="item-search">
+          <h3 class="howto">How to Recycle Special Items</h3>
+          <p>Try searching "Antifreeze"</p>
+          <input id="searchbar" name="searchbar" type="text" placeholder="Search... " />
+          <button id="submit" >Submit</button>
+        </div>
+          <div id="resultBox">
+          <h1 id="header"></h1>
+          <p id="description"></p>
+        </div>
+      </div>
+     
+        <!-- HAD TO ADD BREAK SO IT WONT MESS UP LAYOUT -->
+        <br><br><br>
+        <!--BODY-->
+        <!-- FIRST -->
+        <section id="body-container">
+        <div class="row">
+            <div class="column">
+                <img class="img-border" src="images/paper-recycling .png" alt="Cardboard and Plastic"></img>
+            </div>
+            <div class="column">
+                <h2>Paper & Cardboard</h2>
+                <p>Since most cardboard is used for shipping, you’ll want to remove any shipping materials such as packing peanuts, plastic bags and bubble wrap. Newspaper, cardboard, food boxes, cartons, office paper, junk mail, and magazines</p>
+            </div>
+        </div>
+        <!-- SECOND  -->
+        <div class="row">
+            <div class="column">
+                <h2>Plastics</h2>
+                <p>Every year, the average American goes through more than 250 pounds of plastic waste. Plastic bags are by far the WORST contaminant in the recycling bin. While white foam cups and containers often have a #6 on the bottom, they are not a recyclable plastic.</p>
+            </div>
+            <div class="column">
+                <img class="img-border" src="images/plastic.png" alt="Plastic"></img>
+            </div>
+        </div>
+        <!-- THIRD -->
+        <div class="row">
+            <div class="column">
+                <img class="img-border" src="images/metal-recycling.png" alt="Metal Can"></img>
+            </div>
+            <div class="column">
+                <h2>Metal Cans</h2>
+                <p>Almost All Metals are Recyclable! With scrap metal, the general rule is a product needs to be at least 50 percent metal. Even if that metal is surrounded by other materials like plastic, it’s worth recycling if it’s made mostly out of metal.</p>
+            </div>
+        </div>
+        <!-- FOURTH -->
+        <div class="row">
+            <div class="column">
+                <h2>Glass</h2>
+                <p>Some types of glass do not melt at the same temperature as bottles and jars. If they enter the glass recycling process it can result in new containers being rejected. These items should be recycled separately</p>
+            </div>
+            <div class="column">
+                <img class="img-border" src="images/glass-recycling .png" alt="Glass"></img>
+            </div>
+        </div>
+        <hr class="hr-left">
+    </section>
+    <!-- Google Map and Search Bar -->
+        <div class="map-search">
+          <h3 class="map-title">Find a Recycling Center Near You!</h3>
+          <div class="col">
+            <input class="form-control" id="search" type="text" placeholder="Search..." />
+          </div>
+          <div id="map"></div>
+        </div>
+     
+
+    <div class="wrapper-slider">
+        <nav class="lil-nav">
+          <a href="#image-1">
+            <img class="lil-nav__img" src="images/green-bottles.jpeg" alt="Bottles" />
+          </a>
+          <a href="#image-2">
+            <img class="lil-nav__img" src="images/lightbulb-planet.jpeg" alt="Houses" />
+          </a>
+          <a href="#image-3">
+            <img class="lil-nav__img" src="images/beach-waste.jpeg" alt="Beach waste" />
+          </a>
+          <a href="#image-4">
+            <img class="lil-nav__img" src="images/town-waste.jpeg" alt="Town" />
+          </a>  
+          <a href="#image-5"> 
+            <img class="lil-nav__img" src="images/WaterWaste.jpeg" alt="Water" />
+          </a>    
+        </nav>
+      </div>
+                <!-- Copyright Section -->
+                
+                <footer id="footer">
+                    <div class="footer_copyright">
+                        <p> 2020 &copy; | R2H Hackaton - All Rights Reserved. </p>
+                    </div>
+                </footer>
+   
+        <!--Javascript if we need it later-->
+  <script src="scripts.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDacFud4GeievqCjFymafyJGQfChm5z4M8&callback=createMap&libraries=places" async defer></script>
+</body>
+
+</html>

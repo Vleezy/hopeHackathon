@@ -1,0 +1,39 @@
+// SLIDER
+img {
+    display: block;
+    max-width: 100%;
+    background-color: rgba(0, 0, 0, 0.24);
+  }
+  .wrapper-slider {
+    overflow: hidden;
+    height: 40vh;
+    display: flex;
+    // border-top: dotted white 8px;
+  
+  }
+
+  //SASS NESTING
+  .lil-nav {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: flex;
+    grid-row-start: 2;
+  
+    a {
+      display: flex;
+      min-width: 45vw;
+      margin-right: 10px;
+    }
+  }
+  
+  .lil-nav__img {
+    object-fit: cover;
+    filter: saturate(0);
+    transition: 0.3s ease all;
+  
+    &:hover {
+      transform: scale(1.05);
+      filter: saturate(1);
+    }
+  }
+  

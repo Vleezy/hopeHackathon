@@ -1,0 +1,129 @@
+{
+    "items":[
+        {
+            "name": "ANTIFREEZE",
+            "id": "antifreeze" ,
+            "description": "Check with your local auto parts store, most accept old antifreeze, and some communities have recycling programs for antifreeze you can also take the antifreeze to a household hazardous waste facility."
+        },
+        {
+            "name": "FILE FOLDERS",
+            "id": "filefolders",
+            "description":"Once you separate the metal hangers from the paper, both components can be recycled."
+        },
+        {
+            "name": "GAMING CONSOLES",
+            "id": "gamingconsoles",
+            "description":"Visit the e-Stewards website to find a recycler."
+        },
+        {
+            "name": "GLASS",
+            "id": "glass",
+            "description":"Bottle glass is one of the easiest items to recycle; simply place in your curbside collections bin."
+        },
+        {
+            "name": "BOOKS",
+            "id": "books",
+            "description":"These can be recycled in the paper bin, an alternative you can donate them to Booksforsoldiers.com or www.recycleyourtextbooks.com."
+        },
+        {
+            "name": "CELL PHONES",
+            "id": "cellphones",
+            "description": "Many cellphone companies offer trade-ins, or you can donate your no-longer-used phone."
+        },
+        {
+            "name": "JAM JARS",
+            "id": "jamjars",
+            "description": "Jam jars, sans their metal lids, can be rinsed and recycled with bottle glass."
+        },
+        {
+            "name": "METAL",
+            "id": "metal",
+            "description": "Metals like aluminum cans can often be recycled through curbside collection programs. Other metals may need to be taken to a drop-off center for recycling or proper disposal."
+        },
+        {
+            "name": "MAGAZINES",
+            "id": "magazinez",
+            "description": "Since magazines are made of paper, they are 100 percent recyclable and are accepted by most recycling centers and pickup programs."
+        },
+        {
+            "name": "POST-ITS",
+            "id": "postits",
+            "description": "Post-its can be recycled with paper. You don’t need to worry about the sticky side, it gets sorted out during the recycling process."
+        },
+        {
+            "name": "PIZZA BOXES",
+            "id": "pizzaboxes",
+            "description": "Rip out any areas soiled by food residue like cheese or grease and recycle the rest as corrugated cardboard."
+        },
+        {
+            "name": "SOAP DISPENSERS",
+            "id": "soapdispensers",
+            "description": "Many bathroom bottles, including soap dispensers, are marked with resin code 2 or 4, which makes them easily recyclable."
+        },
+        {
+            "name": "WATER BOTTLES",
+            "id": "waterbottles",
+            "description": "Check with your city’s curbside or drop off recycling program to see which plastics they accept."
+        },
+        {
+            "name": "ZIPPERS",
+            "id": "zippers",
+            "description": "Donate your used zippers to a craft group. Places that recycle metal may be willing to take zippers if you cut off the fabric before you drop them off."
+        },
+        {
+            "name": "BACKPACKS",
+            "id": "backpacks",
+            "description": "Contact youth programs in your area; backpacks might be useful for outings or trips. You could also donate them to a local church."
+        },    
+        {
+            "name": "CANDLES",
+            "id": "candles",
+            "description": "Make a new candle by reusing the wax from your old candle scraps."
+        },
+        {
+            "name": "FIRE EXTINGUISHERS",
+            "id": "fireextinguishers",
+            "description": "Contact your local fire department to find out if your empty extinguisher can be refilled or exchanged for one that is ready for use."
+        },
+        {
+            "name": "HANGERS – PLASTIC",
+            "id": "hangersplastic",
+            "description": "These are best donated; thrift stores are usually happy to receive extra hangers."
+        },
+        {
+            "name": "KEYS",
+            "id": "keys",
+            "description": "Keys can be recycled at most local recycling centers or sold as scrap metal."
+        },
+        {
+            "name": "LOTION BOTTLES",
+            "id": "lotionbottles",
+            "description": "Check the plastic number to be sure, but most bottles can easily be recycled in your curbside pickup bin."
+        },
+        {
+            "name": "QUARTZ",
+            "id": "quartz",
+            "description": "While glass quartz is not the same as other glass products, it is recyclable. Contact your local recycling center to see if they accept glass quartz."
+        },
+        {
+            "name": "TIN CANS",
+            "id": "tincans",
+            "description": "If you have a curbside recycling program, tin and steel cans are usually accepted."
+        },
+        {
+            "name": "HANGERS – WIRE",
+            "id": "hangerswire",
+            "description": "These can be recycled as scrap metal, or returned to your dry cleaner. Hanger manufacturers can reform even bent hangers."
+        },
+        {
+            "name": "KITCHEN UTENSILS",
+            "id": "kitcheutensils",
+            "description": "Since kitchen utensils are commonly made of steel, an iron-chromium alloy, they can be recycled as scrap metal."
+        },
+        {
+            "name": "PLASTIC BAGS",
+            "id": "plasticbags",
+            "description": "Plastic shopping bags can be returned to many grocery stores for recycling."
+        }
+    ]
+}

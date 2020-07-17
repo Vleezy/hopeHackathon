@@ -1,0 +1,91 @@
+/* Body Content*/
+#body-container{
+    flex-wrap: wrap;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background:url('images/green2.png')  center no-repeat;
+}
+
+.column {
+    // flex-wrap: wrap;
+    flex-direction: column;
+    display:flex;
+    justify-content:center;
+    align-items: center ;
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+    // background-color: rgba(0, 0, 0, 10%);
+    /* Should be removed. Only for demonstration */
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    display:flex;
+    content: "";
+    display: table;
+    clear: both;
+    color:white;
+  }
+    .img-border {
+      display:flex;
+    border: solid 8px rgba(255, 255, 0, 0.747);
+    border-radius: 30px;
+    height: 200px;
+    width:200px;
+    padding:15px;
+    box-shadow:
+        inset 0 0 50px #fff,      /* inner white */
+        inset 20px 0 80px yellow,   /* inner left  */
+        inset -20px 0 80px green,  /* inner right */
+        inset 20px 0 300px yellow,  /* inner left  */
+        inset -20px 0 300px green, /* inner right */
+        0 0 50px #fff,            /* outer white */
+        -10px 0 80px yellow,        /* outer left */
+        10px 0 80px green;         /* outer right */
+
+ }
+
+ #map{
+  height:500px;
+  width:100%;
+  color:black;
+  margin-bottom:20px;
+}
+
+.item-search{
+  text-align:center;
+  width:100%;
+}
+
+#searchbar{
+  width:300px;
+  height:30px;
+  border:2px solid darkgreen;
+}
+
+#submit{
+  width:80px;
+  height:28px;
+  border: 2px solid darkgreen;
+  font-size:16px;
+}
+
+.map-search{
+  text-align:center;
+  width:100%;
+}
+
+#search{
+  width:300px;
+  height:30px;
+  margin-bottom: 30px;
+  border: 2px solid darkgreen;
+}
+#resultBox{
+  background-color: rgba(0, 0, 0, 0.24);
+  margin:10px;
+  text-align:center;
+}
+
